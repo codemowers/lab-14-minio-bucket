@@ -1,0 +1,8 @@
+---
+apiVersion: codemowers.io/v1alpha1
+kind: Bucket
+metadata:
+  name: example
+spec:
+  capacity: 1Gi
+  class: shared
